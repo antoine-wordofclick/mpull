@@ -32,13 +32,18 @@
 	color: #c63f1a;
 	}
 
+	a.button {
+	padding-left: 40px;
+	padding-right: 40px;
+	}
+
 
 	.button:hover {
     color: #c63f1a;
     border: #c63f1a;
 	border-style: solid;
-	border-width: 2px;
-	margin-top: -2px;
+	border-width: 1px;
+	margin-top: -1px;
 }
 
 li:hover {
@@ -75,8 +80,8 @@ h2 {
 	padding-bottom: 5%;
 	}
 	padding-bottom:10%;
-	padding-right: 20%;
-	padding-left: 20%;
+	padding-right: 50px;
+	padding-left: 50px;
 	background-color: #fff;
 
 	.social {
@@ -129,12 +134,24 @@ h2 {
 		color:#fff;
 		border: #fff;
 		border-style: solid;
-		border-width: 2px;
+		border-width: 1px;
 	}
 	
 }
 
 .container5 {
+
+	a {
+	color: #fff;
+	}
+
+	a:hover {
+	color: #c63f1a;
+	}
+
+	li {
+	list-style-type: none;
+	}
 	padding-top:5%;
 	padding-bottom: 5%;
 	background-color: #1d1d1d;
