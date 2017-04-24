@@ -18,7 +18,7 @@
 
     h1 {
 	position: absolute;
-	top: 200px;
+	top: 350px;
 	left:30%;
 	transform: translateY(-50%); 
 	text-align: center;
@@ -57,9 +57,8 @@ h2 {
 
 .container {
 	padding: 40px;
-	.services {
+	#services {
 	h2 {
-	padding-top: 5%;
 	padding-bottom: 5%;
 	}
 	img {
@@ -108,8 +107,9 @@ h2 {
 
 	background-color: #c63f1a;
 	height: 100px;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
 	a.button {
 	padding-left: 40px;
 	padding-right: 40px;
