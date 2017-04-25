@@ -13,12 +13,20 @@
 	background-size:     cover;                  
     background-repeat:   no-repeat;
     background-position: center center; 
-    padding-left:10%;
-    padding-right:10%;
+  
 
     .hamburger {
     float: right;
     }
+
+    .top-bar-right {
+    padding-right: 10%;
+    }
+
+	.bg-scroll{
+  	background: #404040;
+	}
+
 
     ul.vertical {
     text-align: center;
