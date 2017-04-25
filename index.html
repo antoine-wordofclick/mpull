@@ -195,10 +195,25 @@
       });
     });
   </script>
-  <script type="text/javascript">
-  $(window).scroll(function() {
-    $(".top-bar").addClass("bg-scroll");
-});
+ 
+
+<script type="text/javascript">
+  var header = jQuery(".top-bar");
+  var headerScroll = "bg-scroll";
+  
+  jQuery(document).scroll( function() {
+    if(jQuery(this).scrollTop() > 0) {
+        
+        header.addClass(headerScroll);
+
+    }
+    else {
+
+        header.removeClass(headerScroll);
+                
+    }
+  });
+  
 </script>
 
 
