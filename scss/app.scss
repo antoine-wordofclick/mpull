@@ -21,6 +21,7 @@
 
     .top-bar-right {
     padding-right: 10%;
+    padding-left: 10%;
     }
 
 	.bg-scroll{
@@ -95,6 +96,17 @@ h2 {
 	.team-container {
 		position: relative;
 	}	
+
+
+	.fa {
+	font-size: 300%;
+	padding: 5px;
+	color: #c63f1a;
+	}
+
+	.fa:hover {
+	color: #404040;
+	}
 
 	.image {
   		display: block;
