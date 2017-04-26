@@ -109,13 +109,15 @@ h2 {
 .container2 {
 
 
+	width: 100%;
+
 	.team-container {
 		position: relative;
 	}	
 
 
 	.fa {
-	font-size: 200%;
+	font-size: 4vw;
 	padding: 5px;
 	color: #c63f1a;
 	}
@@ -149,7 +151,7 @@ h2 {
 .text {
   white-space: nowrap; 
   color: white;
-  font-size: 20px;
+  font-size: 100%;
   position: absolute;
   overflow: hidden;
   top: 50%;
