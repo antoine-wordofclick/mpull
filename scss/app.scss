@@ -69,6 +69,17 @@
     width: 50%;
     padding-top: 20vw;
 
+    .h1 {
+    font-weight: bold;
+    }
+
+   	.button {
+   	display: block;
+	max-width: 200px;
+	margin:0 auto;
+	text-align: center;
+   	}
+
     @include breakpoint(small only) {
 
 	padding-top: 60vw;
