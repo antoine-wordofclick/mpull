@@ -4,7 +4,10 @@
 @import 'foundation';
 @import 'motion-ui';
 
-
+.body {
+	
+	font-family: 'Montserrat', sans-serif;
+}
 
 .header {
 	height: 600px;
@@ -209,23 +212,25 @@ h2 {
 
 .container4 {
 
-padding-top: 5%;
-	
-
 	background-color: #c63f1a;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	
-	a.button {
-	padding-left: 5%;
-	padding-right: 5%px;
-	background-color: #fff;
-	color: #c63f1a;
-	}
+	
 	p {
+	display: block;
 	color: #fff;
 	text-align: center;
 	}
 	
-
+	.button {
+	color: #c63f1a;
+	background-color: #fff;
+	display: block;
+	max-width: 200px;
+	margin:0 auto;
+	text-align: center;
+	}
 	.button:hover {
 		background-color: #c63f1a;
 		color:#fff;
@@ -266,10 +271,7 @@ padding-top: 5%;
 	}
 }
 
-.body {
-	
-	font-family: 'Montserrat', sans-serif;
-}
+
 
 
 
