@@ -24,7 +24,7 @@
     padding-left: 30px;
 
     }
-    
+
     .hamburger {
     float: right;
     padding-right: 30px;
@@ -108,12 +108,12 @@ h2 {
 
 .container {
 
-
-	h3 {
-	padding-top: 20px
-	}
+	.medium-6 {
+    padding-top:40px;
+}
 
 	p {
+	font-size:1.8vw;
 	padding-bottom: 20px;
 	}
 	
@@ -200,9 +200,12 @@ h2 {
 }
 
 .container3 {
+	padding-top: 5%;
+	padding-bottom: 5%;
 	padding-right:20%;
 	padding-left:20%;
-	padding-bottom:5%;
+
+	
 	h2 {
 	padding-top: 5%;
 	padding-bottom: 10%;
