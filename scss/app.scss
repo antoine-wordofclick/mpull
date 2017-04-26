@@ -36,20 +36,22 @@
   	background: rgba(64, 64, 64, 0.6)
 	}
 
+	#menu {
+
+	@include breakpoint(small only) {
+
+	background-color: #404040;
+	 }
+
+	}
+
 
     ul.vertical {
     text-align: center;
     }
 
-    h1 {
-	position: absolute;
-	top: 350px;
-	left:30%;
-	transform: translateY(-50%); 
-	text-align: center;
-	color: #fff;
-}
-	a {
+
+    a {
 	color:#fff;
 	}
 
@@ -57,11 +59,28 @@
 	color: #c63f1a;
 	}
 
-	a.button {
-	padding-left: 40px;
-	padding-right: 40px;
+    .cta1 {
+    margin: auto;
+    width: 50%;
+    padding-top: 20vw;
+
+    @include breakpoint(small only) {
+
+	padding-top: 60vw;
+	 }
+    }
+	
+
+	h1 {
+	transform: translateY(-50%); 
+	color: #fff;
+	text-align:center;
 	}
 
+	a.button {
+	padding-left: 5%;
+	padding-right: 5%;
+	}
 
 	.button:hover {
     color: #c63f1a;
@@ -69,8 +88,7 @@
 	border-style: solid;
 	border-width: 1px;
 	margin-top: -1px;
-}
-
+	}	
 
 
 }
